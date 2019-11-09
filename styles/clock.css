@@ -34,7 +34,7 @@ body{
 
   }
   
-  @media only screen and (min-width: 600px) {
+  @media (min-width: 1025px) and (max-width: 1280px) {
     body{
         /* Background image link broken
         background-image: url(images/164305.jpg) no-repeat center center fixed; */
@@ -72,7 +72,7 @@ body{
       }
   }
   
-  @media only screen and (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
     body{
         /* Background image link broken
         background-image: url(images/164305.jpg) no-repeat center center fixed; */
@@ -111,7 +111,7 @@ body{
   }
 
 
-@media only screen and (min-width: 992px) {
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     body{
         /* Background image link broken
         background-image: url(images/164305.jpg) no-repeat center center fixed; */
@@ -148,7 +148,7 @@ body{
     
       }
   
-    @media only screen and (min-width: 1200px) {
+      @media (min-width: 481px) and (max-width: 767px) {
         body{
             /* Background image link broken
             background-image: url(images/164305.jpg) no-repeat center center fixed; */
@@ -183,4 +183,41 @@ body{
             font-weight: bold;
             font-size:2em;
         
+          }
+
+          @media (min-width: 320px) and (max-width: 480px) {
+            body{
+                /* Background image link broken
+                background-image: url(images/164305.jpg) no-repeat center center fixed; */
+                
+                background: url("https://res.cloudinary.com/vasilymikhailovichdoestovski/image/upload/v1573296611/horror_uepyrd.jpg") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            
+            #clock{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                color:#FFFF00;
+                font-family: Papyrus;
+                letter-spacing: 7px;
+                font-weight: bold;
+                font-size:10em;
+            }
+            
+            #text { 
+                position: absolute;
+                top:20%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                color:#FFFF00;
+                font-family: Papyrus;
+                letter-spacing: 7px;
+                font-weight: bold;
+                font-size:2em;
+            
           }
