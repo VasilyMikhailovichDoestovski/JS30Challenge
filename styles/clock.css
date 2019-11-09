@@ -169,7 +169,7 @@ body{
             font-family: Papyrus;
             letter-spacing: 7px;
             font-weight: bold;
-            font-size:10em;
+            font-size:5em;
         }
         
         #text { 
@@ -179,7 +179,7 @@ body{
             transform: translate(-50%,-50%);
             color:#FFFF00;
             font-family: Papyrus;
-            letter-spacing: 7px;
+            letter-spacing: 5px;
             font-weight: bold;
             font-size:2em;
         
@@ -204,9 +204,9 @@ body{
                 transform: translate(-50%,-50%);
                 color:#FFFF00;
                 font-family: Papyrus;
-                letter-spacing: 7px;
+                letter-spacing: 4px;
                 font-weight: bold;
-                font-size:10em;
+                font-size:4em;
             }
             
             #text { 
@@ -216,7 +216,7 @@ body{
                 transform: translate(-50%,-50%);
                 color:#FFFF00;
                 font-family: Papyrus;
-                letter-spacing: 7px;
+                letter-spacing: 4px;
                 font-weight: bold;
                 font-size:2em;
             
