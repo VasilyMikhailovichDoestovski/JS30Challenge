@@ -1,0 +1,36 @@
+body{
+    /* Background image link broken
+    background-image: url(images/164305.jpg) no-repeat center center fixed; */
+    
+    background: url("https://res.cloudinary.com/vasilymikhailovichdoestovski/image/upload/v1573296611/horror_uepyrd.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#clock{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#FFFF00;
+    font-family: Papyrus;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size:10em;
+}
+
+#text { 
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#FFFF00;
+    font-family: Papyrus;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size:2em;
+
+  }
+  
