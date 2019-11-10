@@ -1,6 +1,6 @@
 body{
     /* Background image link broken
-    background-image: url(images/164305.jpg) no-repeat center center fixed; */
+    background-image: url(images/164305.jpg) no-repeat center center fixed; 
     
     background: url("https://res.cloudinary.com/vasilymikhailovichdoestovski/image/upload/v1573296611/horror_uepyrd.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -11,6 +11,8 @@ body{
     max-width: auto;
     background-repeat: no-repeat;
 
+} */
+background-color: #000;
 }
 
 #clock{
@@ -42,8 +44,7 @@ body{
 @media only screen and (max-width: 500px){
   #clock {font-size: 2em;}
   #text {font-size: 1em;}
-  background-color: #000;
-}
+  }
   
 @media screen and (max-width: 768px) {
   #clock {font-size: 2em;}
@@ -53,5 +54,4 @@ body{
 @media screen and (max-width: 375px) {
   #clock {font-size: 2em;}
   #text {font-size: 1em;}
-  background-color: #000;
 }
