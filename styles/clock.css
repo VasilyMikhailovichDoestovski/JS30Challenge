@@ -10,7 +10,7 @@ body{
     height: auto;
     max-width: auto;
     background-repeat: no-repeat;
-    
+
 }
 
 #clock{
@@ -42,14 +42,9 @@ body{
 @media only screen and (max-width: 500px){
   #clock {font-size: 2em;}
   #text {font-size: 1em;}
+  background-color: #000;
 }
   
-
-@media screen and (max-width: 768px) {
-  #clock {font-size: 2em;}
-  #text {font-size: 1em;}
-}
-
 @media screen and (max-width: 768px) {
   #clock {font-size: 2em;}
   #text {font-size: 1em;}
@@ -58,4 +53,5 @@ body{
 @media screen and (max-width: 375px) {
   #clock {font-size: 2em;}
   #text {font-size: 1em;}
+  background-color: #000;
 }
