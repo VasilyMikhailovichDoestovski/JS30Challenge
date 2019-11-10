@@ -9,6 +9,8 @@ body{
     background-size: cover;
     height: auto;
     max-width: auto;
+    background-repeat: no-repeat;
+    
 }
 
 #clock{
